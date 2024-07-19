@@ -1,0 +1,23 @@
+.Welcome {
+  @apply border border-greyborder rounded-xl p-6  justify-center  flex flex-col bg-secondbg h-[400px];
+
+  .title {
+    @apply text-greytext text-2xl text-center font-bold mb-10;
+  }
+
+  .Join {
+    @apply flex flex-col;
+
+    .text {
+      @apply text-center text-greytext text-base mb-4;
+    }
+
+    .WrapInput {
+      @apply border border-greyborder mb-2 bg-primary p-3 rounded-xl;
+
+      .input {
+        @apply w-full bg-transparent outline-none text-white;
+      }
+    }
+  }
+}

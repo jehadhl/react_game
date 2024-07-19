@@ -1,0 +1,32 @@
+.title {
+  @apply text-white  text-2xl font-bold mb-4;
+}
+
+.chat {
+  @apply border border-greyborder  bg-primary rounded-xl overflow-hidden;
+  .chatBox {
+    @apply h-[200px] overflow-y-scroll p-6;
+
+    .box {
+      @apply flex items-center gap-4  pb-4;
+
+      .title_box {
+        @apply text-red-300 text-lg;
+      }
+
+      .content {
+        @apply text-white bg-greyborder rounded-lg p-1;
+      }
+    }
+  }
+  .send {
+    @apply bg-secondbg w-full p-4 flex items-center gap-4;
+    .WrapInput {
+      @apply border border-greyborder w-full bg-primary p-3 rounded-xl;
+
+      .input {
+        @apply w-full bg-transparent outline-none text-white;
+      }
+    }
+  }
+}

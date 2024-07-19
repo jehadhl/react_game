@@ -1,0 +1,8 @@
+.btn{
+    @apply bg-gradient-to-l from-[#f5af53] to-[#ea09d3] py-3 rounded-lg text-white font-semibold w-full;
+}
+
+
+.disable{
+    @apply text-white bg-greytext py-3 rounded-lg font-semibold w-full cursor-not-allowed;
+}

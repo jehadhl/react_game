@@ -1,0 +1,33 @@
+.title {
+  @apply text-white  text-2xl font-bold mb-4;
+}
+
+.main {
+  @apply relative border border-greyborder rounded-lg  overflow-hidden  w-full;
+
+  .table {
+    @apply w-full rounded-lg;
+
+    .table_head {
+      @apply text-[13px]   bg-primary capitalize border-b-greyborder border-b  ; 
+
+      .th_text {
+        white-space: nowrap;
+        @apply px-4 py-3 text-white text-xs  font-medium  capitalize;
+      }
+    }
+
+    .table_row {
+      @apply border-b-greyborder border-b w-full;
+
+      .table_col {
+        white-space: nowrap;
+        @apply py-3 px-4 text-xs font-medium text-white text-center;
+      }
+    }
+
+    .alt_bg{
+      @apply bg-greyborder ;
+    }
+  }
+}
